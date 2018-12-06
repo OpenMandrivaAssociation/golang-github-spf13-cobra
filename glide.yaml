@@ -1,0 +1,57 @@
+import:
+- package: github.com/hashicorp/hcl
+  subpackages:
+  - ''
+  - hcl/token
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/parser
+  - json/scanner
+  - hcl/ast
+  - json/parser
+  - json/token
+  version: 42e33e2d55a0ff1d6263f738896ea8c13571a8d0
+- package: github.com/spf13/afero
+  subpackages:
+  - ''
+  - mem
+  version: e67d870304c4bca21331b02f414f970df13aa694
+- package: github.com/fsnotify/fsnotify
+  version: 4da3e2cfbabc9f751898f250b49f2439785783a1
+- package: gopkg.in/yaml.v2
+  version: 283fbcdd1e64975730a38609f8802ef983a43cb9
+- package: github.com/magiconair/properties
+  version: 8d7837e64d3c1ee4e54a880c5a920ab4316fc90a
+- package: golang.org/x/sys
+  subpackages:
+  - unix
+  version: 43eea11bc92608addb41b8a406b0407495c106f6
+- package: github.com/mitchellh/go-homedir
+  version: b8bc1bf767474819792c23f32d8286a45736f1c6
+- package: golang.org/x/text
+  subpackages:
+  - unicode/norm
+  - transform
+  version: 825fc78a2fd6fa0a5447e300189e3219e05e1f25
+- package: github.com/spf13/cast
+  version: acbeb36b902d72a7a4c18e8f3241075e7ab763e4
+- package: github.com/mitchellh/mapstructure
+  version: 7869cdbd0bea0c846ad7b8b09bac31f34875aa11
+- package: github.com/pelletier/go-toml
+  version: 2009e44b6f182e34d8ce081ac2767622937ea3d4
+- package: github.com/spf13/jwalterweatherman
+  version: 12bd96e66386c1960ab0f74ced1362f66f552f7b
+- package: github.com/cpuguy83/go-md2man
+  subpackages:
+  - md2man
+  version: 1d903dcb749992f3741d744c0f8376b4bd7eb3e1
+- package: github.com/spf13/viper
+  version: d9cca5ef33035202efb1586825bdbb15ff9ec3ba
+- package: github.com/spf13/pflag
+  version: a9789e855c7696159b7db0db7f440b449edf2b31
+- package: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- package: github.com/russross/blackfriday
+  version: 1b9fcf3894a09527c9471d4fffdf1c5c1ce98da0
+package: github.com/spf13/cobra
+
